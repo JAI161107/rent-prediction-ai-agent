@@ -1,0 +1,24 @@
+{
+  "intercept": 450.0,
+  "weights": {
+    "sqft": 2.85,
+    "bedrooms": 240.0,
+    "bathrooms": 150.0,
+    "walk_score": 2.2,
+    "transit_score": 1.4,
+    "age_penalty_per_year": -1.8,
+    "in_unit_washer_dryer": 160.0,
+    "central_ac": 110.0,
+    "parking_spot": 175.0,
+    "private_balcony": 95.0,
+    "dishwasher": 65.0,
+    "pet_friendly": 50.0,
+    "fitness_center": 80.0,
+    "swimming_pool": 75.0,
+    "doorman_concierge": 140.0,
+    "hardwood_floors": 70.0,
+    "rooftop_deck": 85.0,
+    "furnished": 350.0
+  },
+  "is_trained": true
+}

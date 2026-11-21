@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: apexrent-api
+    command: python main.py api --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    restart: unless-stopped
+
+  ui:
+    build: .
+    container_name: apexrent-ui
+    command: python -m streamlit run rent_agent/ui/dashboard.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    depends_on:
+      - api
+    restart: unless-stopped
