@@ -1,5 +1,8 @@
 # 🏢 ApexRent AI - Real Estate Rent Prediction & Market Advisory Agent
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=JAI161107/rent-prediction-ai-agent&branch=main&mainModule=streamlit_app.py)
+[![CI Suite](https://github.com/JAI161107/rent-prediction-ai-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/JAI161107/rent-prediction-ai-agent/actions)
+
 ApexRent AI is an intelligent real estate intelligence platform and autonomous agent designed for property valuation, comparable listings analysis, lease negotiations, and investment cash flow analytics.
 
 ---
